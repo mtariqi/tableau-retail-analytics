@@ -1,6 +1,3 @@
-### 📋 README.md with Professional Badges
-
-```markdown
 # 🏪 Retail Store Sales Analysis - Tableau Dashboard
 
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
