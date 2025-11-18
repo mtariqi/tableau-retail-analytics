@@ -5,9 +5,39 @@
 ![Data Analysis](https://img.shields.io/badge/Data_Analysis-FF6B6B?style=for-the-badge&logo=databricks&logoColor=white)
 ![Business Intelligence](https://img.shields.io/badge/Business_Intelligence-7743DB?style=for-the-badge&logo=powerbi&logoColor=white)
 
-## 📖 Project Overview
 
-A comprehensive Tableau-based business intelligence solution analyzing retail store performance across multiple dimensions including sales, profit, customer segments, and regional performance.
+# 🏬 Retail Store Analytics with Tableau
+
+A comprehensive Tableau-based business intelligence solution analyzing retail store performance. This project uses a real-world retail transactions dataset to build a complete **Tableau analytics portfolio** focused on sales, profit, customer behavior, regional performance, and returns. The goal is to demonstrate how to turn raw transactional data into **interactive, business-ready dashboards** that support decision-making for sales, marketing, and operations teams.
+
+---
+
+## 📂 Dataset
+
+The project is based on a retail store dataset with three related tables:
+
+- **Orders**  
+  - Granularity: line-level order items  
+  - Key fields:  
+    - `Order ID`, `Order Date`, `Ship Date`, `Ship Mode`  
+    - `Customer ID`, `Customer Name`, `Segment`  
+    - `Country`, `City`, `State`, `Region`, `Postal Code`  
+    - `Product ID`, `Category`, `Sub-Category`, `Product Name`  
+    - `Sales`, `Quantity`, `Discount`, `Profit`
+
+- **People**  
+  - Regional manager information  
+  - Fields: `Person`, `Region`
+
+- **Returns**  
+  - Returned order flags  
+  - Fields: `Order ID`, `Returned` (Yes/No)
+
+> **Record counts**
+> - 9,994 order lines  
+> - 5,009 distinct orders  
+> - 793 distinct customers  
+
 
 ### 🎯 Key Objectives
 
@@ -197,16 +227,8 @@ For questions or collaborations:
 - Tableau for powerful visualization capabilities
 - Open source community for best practices
 
----
 
-<div align="center">
-
-**⭐ Don't forget to star this repository if you find it helpful!**
-
-</div>
-```
-
-## 🎯 Graduate-Level Professional Project Components
+## 🎯 Project Components
 
 ### 1. **Executive Summary Analysis**
 - **Sales Performance**: $2.8M+ total sales across 483+ transactions
@@ -329,3 +351,37 @@ GROUP BY Customer_ID
 - Better customer understanding
 - Competitive advantage through data-driven insights
 
+## 🎯 Business Questions
+
+The dashboards are designed to answer questions such as:
+
+1. **Sales & Profit Performance**
+   - What are total sales, profit, and profit margin over time?
+   - Which product categories and sub-categories drive revenue vs. profit?
+   - Are there loss-making products/sub-categories (e.g., Tables)?
+
+2. **Customer & Segment Insights**
+   - Which customer segments (Consumer, Corporate, Home Office) are most profitable?
+   - Who are the top customers by sales and profit?
+   - How is revenue distributed across segments over time?
+
+3. **Regional & Manager Performance**
+   - Which regions contribute most to sales and profit?
+   - How do regions differ in product mix, discounting, and profitability?
+   - How does each **regional manager** (from the `People` table) perform?
+
+4. **Returns & Discounts**
+   - What is the overall return rate?
+   - Which categories/segments have higher return rates?
+   - How do discounts affect profit, especially for low-margin categories?
+
+---
+
+## 🧮 Key Metrics & Calculated Fields (Tableau)
+
+The following calculations are created in Tableau to support the analysis:
+
+1. **Profit Margin**
+
+```tableau
+[Profit Margin] = [Profit] / [Sales]
