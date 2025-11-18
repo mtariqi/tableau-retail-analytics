@@ -17,6 +17,33 @@ A comprehensive Tableau-based business intelligence solution analyzing retail st
 - **Product Category Analysis**: Identify top-performing products and categories
 - **Profitability Analysis**: Monitor profit margins and identify improvement areas
 
+
+## Project Structure
+
+```
+tableau-retail-analytics/
+├── data/
+│   ├── Tableau_Retail_Store_Dataset.xlsx   # (or a README pointing to source if you can't publish data)
+│   └── data_dictionary.md                  # optional: describe each column
+├── tableau/
+│   ├── Retail_Store_Overview.twbx         # Dashboard 1: Executive Overview
+│   ├── Sales_Profit_Analysis.twbx         # Dashboard 2: Time & Category
+│   ├── Customer_Segment_Analysis.twbx     # Dashboard 3: Customers
+│   ├── Regional_Performance.twbx          # Dashboard 4: Geography & Managers
+│   └── Returns_Discount_Insights.twbx     # Dashboard 5: Returns & Discount
+├── docs/
+│   ├── screenshots/
+│   │   ├── dashboard_overview.png
+│   │   ├── dashboard_sales_trends.png
+│   │   ├── dashboard_customer_segments.png
+│   │   ├── dashboard_regional.png
+│   │   └── dashboard_returns_discount.png
+│   └── project_report.md                  # optional narrative report
+├── .gitignore
+├── LICENSE
+└── README.md
+```
+
 ## 📊 Dataset Overview
 
 | Metric | Value |
