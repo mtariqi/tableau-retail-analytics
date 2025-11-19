@@ -1,12 +1,41 @@
-# 🏬 Retail Store Sales Analysis - Tableau Dashboard
+🏬 Retail Store Sales Analysis - Tableau Dashboard
+🔧 Technical Stack & Tools
+Core Technologies
+https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white
+https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white
+https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white
+https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
 
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
-![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![Data Analysis](https://img.shields.io/badge/Data_Analysis-FF6B6B?style=for-the-badge&logo=databricks&logoColor=white)
-![Business Intelligence](https://img.shields.io/badge/Business_Intelligence-7743DB?style=for-the-badge&logo=powerbi&logoColor=white)
-<p /> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/ML-Machine%20Learning-green?style=for-the-badge" /> <img src="https://img.shields.io/badge/DL-Deep%20Learning-orange?style=for-the-badge" /> <img src="https://img.shields.io/badge/Random%20Forest-%20Model%20Included-blue?style=for-the-badge" /> <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" /> </p> 
-<p align="center"> <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
- </p>
+Data Science & Analytics
+https://img.shields.io/badge/Data_Analysis-FF6B6B?style=for-the-badge&logo=databricks&logoColor=white
+https://img.shields.io/badge/Business_Intelligence-7743DB?style=for-the-badge&logo=powerbi&logoColor=white
+https://img.shields.io/badge/ML-Machine%2520Learning-green?style=for-the-badge
+https://img.shields.io/badge/DL-Deep%2520Learning-orange?style=for-the-badge
+https://img.shields.io/badge/Random%2520Forest-Model%2520Included-blue?style=for-the-badge
+
+Project Status & Metrics
+https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge
+https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge
+https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge
+https://img.shields.io/badge/Contributions-Welcome-success?style=for-the-badge
+
+Data & Analytics Focus
+https://img.shields.io/badge/Data_Visualization-FF6B9D?style=for-the-badge&logo=plotly&logoColor=white
+https://img.shields.io/badge/Predictive_Analytics-00B0F0?style=for-the-badge
+https://img.shields.io/badge/Interactive_Dashboard-8E44AD?style=for-the-badge
+https://img.shields.io/badge/ETL_Processes-27AE60?style=for-the-badge
+
+Business Domains
+https://img.shields.io/badge/Retail_Analytics-3498DB?style=for-the-badge
+https://img.shields.io/badge/Sales_Forecasting-E74C3C?style=for-the-badge
+https://img.shields.io/badge/Customer_Analytics-9B59B6?style=for-the-badge
+https://img.shields.io/badge/Business_Metrics-16A085?style=for-the-badge
+
+Development & Deployment
+https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white
+https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white
+https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white
+https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white
 
 
 ## 📋 Table of Contents
