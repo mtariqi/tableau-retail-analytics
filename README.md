@@ -66,6 +66,16 @@ A comprehensive **Tableau-based business intelligence solution** analyzing retai
 - 🔄 **Returns & Discount Impact**: Understand the relationship between discounts, returns, and profit
 
 ---
+## 🧩 Entity Relationship Diagram (ERD)
+
+Below is the ERD representing the relationships between **Orders**, **People**, and **Returns** tables.
+
+<p align="center">
+  <img src="docs/erd_diagram.png" alt="Retail Analytics ERD Diagram" width="85%">
+</p>
+
+
+
 
 ## 📂 Dataset Information
 
