@@ -1,6 +1,7 @@
 🏬 Retail Store Sales Analysis - Tableau Dashboard
 🔧 Technical Stack & Tools
 Core Technologies
+```
 https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white
 https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white
 https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white
@@ -36,7 +37,7 @@ https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoC
 https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white
 https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white
 https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white
-
+```
 
 ## 📋 Table of Contents
 - [Project Overview](#-project-overview)
