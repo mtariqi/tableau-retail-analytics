@@ -1,0 +1,86 @@
+# ============================
+# Python
+# ============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints/
+.env
+.venv/
+venv/
+env/
+
+# Virtual environment folders
+ENV/
+env.bak/
+python_env/
+
+# ============================
+# Jupyter Notebook
+# ============================
+.ipynb_checkpoints/
+
+# ============================
+# Tableau
+# ============================
+*.hyper
+*.twb.backup
+*.tds.backup
+*.twbx.backup
+*.log
+logs/
+*.bak
+
+# Extracts or temporary export files
+*.tde
+*.tdsx
+*.twbx.tmp
+
+# ============================
+# Excel / Temporary Office Files
+# ============================
+~$*.xlsx
+~$*.xls
+
+# ============================
+# System Files
+# ============================
+.DS_Store
+Thumbs.db
+
+# ============================
+# OS / Editor Files
+# ============================
+*.swp
+*.swo
+*.tmp
+
+# VSCode
+.vscode/
+
+# ============================
+# JSON configs (optional)
+# Uncomment if you don’t want to track sensitive JSON files
+# *.json
+
+# ============================
+# Logs & Output Files
+# ============================
+*.log
+*.out
+*.err
+
+# ============================
+# Database dumps
+# ============================
+*.sql.gz
+*.dump
+*.backup
+
+# ============================
+# Node / Web (if added later)
+# ============================
+node_modules/
+dist/
+build/
