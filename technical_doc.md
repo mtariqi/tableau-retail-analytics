@@ -5,8 +5,7 @@
 ![Data Analysis](https://img.shields.io/badge/Data_Analysis-FF6B6B?style=for-the-badge&logo=databricks&logoColor=white)
 ![Business Intelligence](https://img.shields.io/badge/Business_Intelligence-7743DB?style=for-the-badge&logo=powerbi&logoColor=white)
 <p /> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/ML-Machine%20Learning-green?style=for-the-badge" /> <img src="https://img.shields.io/badge/DL-Deep%20Learning-orange?style=for-the-badge" /> <img src="https://img.shields.io/badge/Random%20Forest-%20Model%20Included-blue?style=for-the-badge" /> <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" /> </p> 
-<p align="center">
- <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
+<p align="center"> <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
  </p>
 
 
