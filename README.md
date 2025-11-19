@@ -1,10 +1,43 @@
-# 🏬 Retail Store Sales Analysis - Tableau Dashboard
+# Retail Store Sales Analysis - Tableau Dashboard
 
+## Technical Stack & Tools
+**Core Technologies**  
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
-![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+**Data Science & Analytics**  
 ![Data Analysis](https://img.shields.io/badge/Data_Analysis-FF6B6B?style=for-the-badge&logo=databricks&logoColor=white)
 ![Business Intelligence](https://img.shields.io/badge/Business_Intelligence-7743DB?style=for-the-badge&logo=powerbi&logoColor=white)
-<p /> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/ML-Machine%20Learning-green?style=for-the-badge" /> <img src="https://img.shields.io/badge/DL-Deep%20Learning-orange?style=for-the-badge" /> <img src="https://img.shields.io/badge/Random%20Forest-%20Model%20Included-blue?style=for-the-badge" /> <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" /> </p> 
+![Machine Learning](https://img.shields.io/badge/ML-Machine%20Learning-green?style=for-the-badge)
+![Deep Learning](https://img.shields.io/badge/DL-Deep%20Learning-orange?style=for-the-badge)
+![Random Forest](https://img.shields.io/badge/Random%20Forest-Model%20Included-blue?style=for-the-badge)
+
+**Project Status & Metrics**  
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
+![Contributions](https://img.shields.io/badge/Contributions-Welcome-success?style=for-the-badge)
+
+**Data & Analytics Focus**  
+![Data Visualization](https://img.shields.io/badge/Data_Visualization-FF6B9D?style=for-the-badge&logo=plotly&logoColor=white)
+![Predictive Analytics](https://img.shields.io/badge/Predictive_Analytics-00B0F0?style=for-the-badge)
+![Interactive Dashboard](https://img.shields.io/badge/Interactive_Dashboard-8E44AD?style=for-the-badge)
+![ETL Processes](https://img.shields.io/badge/ETL_Processes-27AE60?style=for-the-badge)
+
+**Business Domains**  
+![Retail Analytics](https://img.shields.io/badge/Retail_Analytics-3498DB?style=for-the-badge)
+![Sales Forecasting](https://img.shields.io/badge/Sales_Forecasting-E74C3C?style=for-the-badge)
+![Customer Analytics](https://img.shields.io/badge/Customer_Analytics-9859B6?style=for-the-badge)
+![Business Metrics](https://img.shields.io/badge/Business_Metrics-16A085?style=for-the-badge)
+
+**Development & Deployment**  
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+![Jupyter](https://img.shields.io/badge/jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+
 
 ## 📋 Table of Contents
 - [Project Overview](#-project-overview)
@@ -124,7 +157,7 @@ The project uses a real-world retail transactions dataset with three interconnec
    - Discount impact on profitability
    - Correlation analysis between discounts and margins
 
-6. **Advanced Analytics Dashboard** ⭐ NEW
+6. **Advanced Analytics Dashboard** ⭐ 
    - **Predictive Forecasting**: ARIMA-based sales predictions with 94.3% accuracy
    - **Customer Churn Analysis**: ML-powered risk scoring for 793 customers
    - **RFM Segmentation**: 7-tier customer value classification
@@ -132,7 +165,7 @@ The project uses a real-world retail transactions dataset with three interconnec
    - **Portfolio Optimization**: BCG matrix for product strategy
    - **Price Elasticity**: Discount effectiveness analysis
 
-7. **Portfolio Intelligence Dashboard** ⭐ NEW
+7. **Portfolio Intelligence Dashboard** ⭐ 
    - **ABC Analysis**: Pareto-based product classification
    - **Product Matrix**: Growth-share analysis (Stars, Cash Cows, Dogs)
    - **Regional Radar**: Multi-dimensional performance comparison
@@ -348,8 +381,8 @@ tableau-retail-analytics/
 │   ├── 03_Customer_Intelligence.twbx        # Dashboard 3: Customer Segmentation
 │   ├── 04_Regional_Performance.twbx         # Dashboard 4: Geographic Analysis
 │   ├── 05_Product_Portfolio.twbx            # Dashboard 5: Product Performance
-│   ├── 06_Advanced_Analytics.twbx           # Dashboard 6: Predictive Models ⭐ NEW
-│   ├── 07_Pricing_Optimization.twbx         # Dashboard 7: Price Elasticity ⭐ NEW
+│   ├── 06_Advanced_Analytics.twbx           # Dashboard 6: Predictive Models ⭐ 
+│   ├── 07_Pricing_Optimization.twbx         # Dashboard 7: Price Elasticity ⭐ 
 │   └── Master_Dashboard.twb                 # Combined workbook with all views
 │
 ├── models/
@@ -378,10 +411,10 @@ tableau-retail-analytics/
 │   │   ├── 03_customer_segments.png         # Customer analysis screenshot
 │   │   ├── 04_regional_performance.png      # Regional performance screenshot
 │   │   ├── 05_product_portfolio.png         # Product analysis screenshot
-│   │   ├── 06_predictive_dashboard.png      # Forecasting dashboard ⭐ NEW
-│   │   ├── 07_rfm_segmentation.png          # RFM analysis ⭐ NEW
-│   │   ├── 08_bcg_matrix.png                # Portfolio matrix ⭐ NEW
-│   │   └── 09_discount_optimization.png     # Pricing analysis ⭐ NEW
+│   │   ├── 06_predictive_dashboard.png      # Forecasting dashboard ⭐ 
+│   │   ├── 07_rfm_segmentation.png          # RFM analysis ⭐ 
+│   │   ├── 08_bcg_matrix.png                # Portfolio matrix ⭐ 
+│   │   └── 09_discount_optimization.png     # Pricing analysis ⭐ 
 │   │
 │   ├── reports/
 │   │   ├── executive_summary.pdf            # C-level presentation
@@ -1897,11 +1930,11 @@ This project stands out because it demonstrates:
 
 **Interested in collaboration, questions, or opportunities?**
 
-- 📧 **Email**: your.email@domain.com
-- 💼 **LinkedIn**: [Your Profile](https://linkedin.com/in/yourprofile)
-- 🐙 **GitHub**: [@yourusername](https://github.com/yourusername)
-- 🌐 **Portfolio**: [yourportfolio.com](https://yourportfolio.com)
-- 📊 **Tableau Public**: [Your Profile](https://public.tableau.com/app/profile/yourprofile)
+- 📧 **Email**: triqul@scired.com
+- 💼 **LinkedIn**: www.linkedin.com/in/mdtariqulscired
+- 🐙 **GitHub**:https://github.com/mtariqi
+- 🌐 **Portfolio**: https://scired.com/team/
+- 📊 **Tableau Public**: https://github.com/mtariqi/tableau-retail-analytics/edit/main/technical_doc.md
 
 **Available for**:
 - Data Analytics Consulting
@@ -1946,36 +1979,3 @@ The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 ```
 
-**Attribution Appreciated** (but not required):
-If you use this project as a reference, a mention would be appreciated:
-> Based on [Retail Store Analytics](https://github.com/yourusername/retail-analytics-tableau) by [Your Name]
-
----
-
-## 🎯 Final Thoughts
-
-This project represents **200+ hours** of work combining:
-- Data engineering and architecture
-- Advanced analytics and ML modeling  
-- Business intelligence and visualization
-- Strategic thinking and ROI analysis
-- Documentation and presentation skills
-
-It's designed to showcase **real-world problem-solving** with **quantifiable business impact**.
-
-Whether you're a hiring manager, fellow analyst, or student learning analytics—I hope this project demonstrates the power of **data-driven decision making** and inspires you to build something amazing.
-
-**Questions? Feedback? Opportunities? Let's talk!** 👆 Contact info above.
-
----
-
-<p align="center">
-  <i>Built with ❤️ and data</i><br>
-  <i>Powered by Tableau • Python • SQL • Machine Learning</i>
-</p>
-
-<p align="center">
-  <a href="#-retail-store-sales-analysis---tableau-dashboard">⬆️ Back to Top</a>
-</p>
-
-</div>
