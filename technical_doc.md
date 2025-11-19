@@ -5,6 +5,10 @@
 ![Data Analysis](https://img.shields.io/badge/Data_Analysis-FF6B6B?style=for-the-badge&logo=databricks&logoColor=white)
 ![Business Intelligence](https://img.shields.io/badge/Business_Intelligence-7743DB?style=for-the-badge&logo=powerbi&logoColor=white)
 <p /> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/ML-Machine%20Learning-green?style=for-the-badge" /> <img src="https://img.shields.io/badge/DL-Deep%20Learning-orange?style=for-the-badge" /> <img src="https://img.shields.io/badge/Random%20Forest-%20Model%20Included-blue?style=for-the-badge" /> <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" /> </p> 
+<p align="center">
+ <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
+ </p>
+
 
 ## 📋 Table of Contents
 - [Project Overview](#-project-overview)
@@ -124,7 +128,7 @@ The project uses a real-world retail transactions dataset with three interconnec
    - Discount impact on profitability
    - Correlation analysis between discounts and margins
 
-6. **Advanced Analytics Dashboard** ⭐ NEW
+6. **Advanced Analytics Dashboard** ⭐ 
    - **Predictive Forecasting**: ARIMA-based sales predictions with 94.3% accuracy
    - **Customer Churn Analysis**: ML-powered risk scoring for 793 customers
    - **RFM Segmentation**: 7-tier customer value classification
@@ -132,7 +136,7 @@ The project uses a real-world retail transactions dataset with three interconnec
    - **Portfolio Optimization**: BCG matrix for product strategy
    - **Price Elasticity**: Discount effectiveness analysis
 
-7. **Portfolio Intelligence Dashboard** ⭐ NEW
+7. **Portfolio Intelligence Dashboard** ⭐ 
    - **ABC Analysis**: Pareto-based product classification
    - **Product Matrix**: Growth-share analysis (Stars, Cash Cows, Dogs)
    - **Regional Radar**: Multi-dimensional performance comparison
@@ -348,8 +352,8 @@ tableau-retail-analytics/
 │   ├── 03_Customer_Intelligence.twbx        # Dashboard 3: Customer Segmentation
 │   ├── 04_Regional_Performance.twbx         # Dashboard 4: Geographic Analysis
 │   ├── 05_Product_Portfolio.twbx            # Dashboard 5: Product Performance
-│   ├── 06_Advanced_Analytics.twbx           # Dashboard 6: Predictive Models ⭐ NEW
-│   ├── 07_Pricing_Optimization.twbx         # Dashboard 7: Price Elasticity ⭐ NEW
+│   ├── 06_Advanced_Analytics.twbx           # Dashboard 6: Predictive Models ⭐ 
+│   ├── 07_Pricing_Optimization.twbx         # Dashboard 7: Price Elasticity ⭐ 
 │   └── Master_Dashboard.twb                 # Combined workbook with all views
 │
 ├── models/
@@ -378,10 +382,10 @@ tableau-retail-analytics/
 │   │   ├── 03_customer_segments.png         # Customer analysis screenshot
 │   │   ├── 04_regional_performance.png      # Regional performance screenshot
 │   │   ├── 05_product_portfolio.png         # Product analysis screenshot
-│   │   ├── 06_predictive_dashboard.png      # Forecasting dashboard ⭐ NEW
-│   │   ├── 07_rfm_segmentation.png          # RFM analysis ⭐ NEW
-│   │   ├── 08_bcg_matrix.png                # Portfolio matrix ⭐ NEW
-│   │   └── 09_discount_optimization.png     # Pricing analysis ⭐ NEW
+│   │   ├── 06_predictive_dashboard.png      # Forecasting dashboard ⭐ 
+│   │   ├── 07_rfm_segmentation.png          # RFM analysis ⭐ 
+│   │   ├── 08_bcg_matrix.png                # Portfolio matrix ⭐ 
+│   │   └── 09_discount_optimization.png     # Pricing analysis ⭐ 
 │   │
 │   ├── reports/
 │   │   ├── executive_summary.pdf            # C-level presentation
