@@ -696,9 +696,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Project Maintainer**: [Your Name]
 
 - 📧 Email: tariqul@scired.com
-- 💼 LinkedIn: [Your LinkedIn Profile](www.linkedin.com/in/mdtariqulscired)
-- 🐙 GitHub: [@yourusername](https://github.com/mtariqi)
-- 🌐 Portfolio: [yourportfolio.com](https://scired.com/team/)
+- 💼 LinkedIn:https://linkedin.com/in/mdtariqulscired
+- 🐙 GitHub:https://github.com/mtariqi
+- 🌐 Portfolio:https://scired.com/team/
 
 ### Questions or Issues?
 - Open an [issue](https://github.com/mtariqi/retail-sales-analysis-tableau/issues) for bug reports
