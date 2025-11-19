@@ -1966,7 +1966,7 @@ This project stands out because it demonstrates:
 **MIT License** - Free to use, modify, and distribute
 
 ```
-Copyright (c) 2024 [Your Name]
+Copyright (c) 2024 Md Tariqul Islam
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
