@@ -1,13 +1,10 @@
-A Complete End-to-End Business Intelligence & Machine Learning Project
-<p align="center"> <img src="https://img.shields.io/badge/Tableau-005F9E?style=for-the-badge&logo=tableau&logoColor=white" /> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/ML-Machine%20Learning-green?style=for-the-badge" /> <img src="https://img.shields.io/badge/DL-Deep%20Learning-orange?style=for-the-badge" /> <img src="https://img.shields.io/badge/Random%20Forest-%20Model%20Included-blue?style=for-the-badge" /> <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" /> </p> <p align="center"> <img src="https://img.shields.io/github/repo-size/mtariqi/retail-sales-analysis-tableau?style=flat-square" /> <img src="https://img.shields.io/github/last-commit/mtariqi/retail-sales-analysis-tableau?color=yellow&style=flat-square" /> <img src="https://img.shields.io/badge/License-MIT-purple.svg?style=flat-square" /> </p>
-
-
 # 🏬 Retail Store Sales Analysis - Tableau Dashboard
 
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
 ![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![Data Analysis](https://img.shields.io/badge/Data_Analysis-FF6B6B?style=for-the-badge&logo=databricks&logoColor=white)
 ![Business Intelligence](https://img.shields.io/badge/Business_Intelligence-7743DB?style=for-the-badge&logo=powerbi&logoColor=white)
+<p align="center"> <img src="https://img.shields.io/badge/Tableau-005F9E?style=for-the-badge&logo=tableau&logoColor=white" /> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/ML-Machine%20Learning-green?style=for-the-badge" /> <img src="https://img.shields.io/badge/DL-Deep%20Learning-orange?style=for-the-badge" /> <img src="https://img.shields.io/badge/Random%20Forest-%20Model%20Included-blue?style=for-the-badge" /> <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" /> </p> <p align="center"> <img src="https://img.shields.io/github/repo-size/mtariqi/retail-sales-analysis-tableau?style=flat-square" /> <img src="https://img.shields.io/github/last-commit/mtariqi/retail-sales-analysis-tableau?color=yellow&style=flat-square" /> <img src="https://img.shields.io/badge/License-MIT-purple.svg?style=flat-square" /> </p>
 
 ## 📋 Table of Contents
 - [Project Overview](#-project-overview)
