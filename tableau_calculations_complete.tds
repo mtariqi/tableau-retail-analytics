@@ -1,0 +1,49 @@
+<!-- Tableau Data Source Calculations - Copy and paste these into Tableau -->
+<datasource formatted-name="Retail_Sales" inline='true' source-platform='win' version='2020.1'>
+  
+  <!-- CORE KPIs -->
+  <calculation class="tableau" formula="SUM([Sales])" name="Total Sales" />
+  <calculation class="tableau" formula="SUM([Profit])" name="Total Profit" />
+  <calculation class="tableau" formula="SUM([Profit]) / SUM([Sales])" name="Profit Margin" />
+  <calculation class="tableau" formula="COUNTD([Order ID])" name="Total Orders" />
+  <calculation class="tableau" formula="COUNTD([Customer ID])" name="Total Customers" />
+  
+  <!-- ADVANCED BUSINESS METRICS -->
+  <calculation class="tableau" formula="SUM([Sales]) / COUNTD([Order ID])" name="Average Order Value" />
+  <calculation class="tableau" formula="COUNTD(IF [Returned] = &quot;Yes&quot; THEN [Order ID] END) / COUNTD([Order ID])" name="Return Rate" />
+  <calculation class="tableau" formula="DATEDIFF('day', [Order Date], [Ship Date])" name="Days to Ship" />
+  
+  <!-- RFM SEGMENTATION -->
+  <calculation class="tableau" formula="{ FIXED [Customer ID] : DATEDIFF('day', MAX([Order Date]), {MAX([Order Date])}) }" name="Recency (Days)" />
+  <calculation class="tableau" formula="{ FIXED [Customer ID] : COUNTD([Order ID]) }" name="Frequency" />
+  <calculation class="tableau" formula="{ FIXED [Customer ID] : SUM([Sales]) }" name="Monetary" />
+  <calculation class="tableau" formula="INT((6 - RANK_INT([Recency (Days)])) / {COUNTD([Customer ID])} * 5)" name="R Score" />
+  <calculation class="tableau" formula="INT(RANK_INT([Frequency]) / {COUNTD([Customer ID])} * 5)" name="F Score" />
+  <calculation class="tableau" formula="INT(RANK_INT([Monetary]) / {COUNTD([Customer ID])} * 5)" name="M Score" />
+  <calculation class="tableau" formula="STR([R Score]) + STR([F Score]) + STR([M Score])" name="RFM Score" />
+  
+  <!-- CUSTOMER SEGMENTS -->
+  <calculation class="tableau" formula="IF [R Score] = 5 AND [F Score] &gt;= 4 THEN &quot;Champions&quot;&#10;ELSEIF [R Score] &gt;= 4 AND [F Score] &gt;= 3 THEN &quot;Loyal Customers&quot;&#10;ELSEIF [R Score] &gt;= 3 THEN &quot;Potential Loyalists&quot;&#10;ELSEIF [R Score] &gt;= 2 THEN &quot;At Risk&quot;&#10;ELSE &quot;Lost Customers&quot;&#10;END" name="Customer Segment" />
+  
+  <!-- TIME INTELLIGENCE -->
+  <calculation class="tableau" formula="DATETRUNC('month', [Order Date])" name="Order Month" />
+  <calculation class="tableau" formula="DATETRUNC('quarter', [Order Date])" name="Order Quarter" />
+  <calculation class="tableau" formula="YEAR([Order Date])" name="Order Year" />
+  <calculation class="tableau" formula="MONTH([Order Date])" name="Order Month Number" />
+  
+  <!-- PROFITABILITY ANALYSIS -->
+  <calculation class="tableau" formula="IF [Profit Margin] &gt; 0.2 THEN &quot;High Margin (&gt;20%)&quot;&#10;ELSEIF [Profit Margin] &gt; 0.1 THEN &quot;Medium Margin (10-20%)&quot;&#10;ELSEIF [Profit Margin] &gt; 0 THEN &quot;Low Margin (0-10%)&quot;&#10;ELSE &quot;Loss Making&quot;&#10;END" name="Profit Margin Category" />
+  
+  <!-- DISCOUNT ANALYSIS -->
+  <calculation class="tableau" formula="IF [Discount] = 0 THEN &quot;No Discount&quot;&#10;ELSEIF [Discount] &lt;= 0.1 THEN &quot;1-10%&quot;&#10;ELSEIF [Discount] &lt;= 0.2 THEN &quot;11-20%&quot;&#10;ELSEIF [Discount] &lt;= 0.3 THEN &quot;21-30%&quot;&#10;ELSE &quot;&gt;30%&quot;&#10;END" name="Discount Bracket" />
+  
+  <!-- SEASONAL ANALYSIS -->
+  <calculation class="tableau" formula="IF MONTH([Order Date]) IN (11,12) THEN &quot;Holiday Season&quot;&#10;ELSEIF MONTH([Order Date]) IN (1,2) THEN &quot;Post-Holiday&quot;&#10;ELSEIF MONTH([Order Date]) IN (6,7,8) THEN &quot;Summer&quot;&#10;ELSE &quot;Regular&quot;&#10;END" name="Season" />
+  
+  <!-- PERFORMANCE BANDING -->
+  <calculation class="tableau" formula="IF [Profit] &lt; 0 THEN &quot;Loss&quot;&#10;ELSEIF [Profit] &lt; 50 THEN &quot;Low Profit&quot;&#10;ELSEIF [Profit] &lt; 200 THEN &quot;Medium Profit&quot;&#10;ELSE &quot;High Profit&quot;&#10;END" name="Profit Band" />
+  
+  <!-- SHIPPING PERFORMANCE -->
+  <calculation class="tableau" formula="IF [Days to Ship] = 0 THEN &quot;Same Day&quot;&#10;ELSEIF [Days to Ship] &lt;= 2 THEN &quot;Fast (1-2 days)&quot;&#10;ELSEIF [Days to Ship] &lt;= 5 THEN &quot;Standard (3-5 days)&quot;&#10;ELSE &quot;Slow (&gt;5 days)&quot;&#10;END" name="Shipping Performance" />
+
+</datasource>

@@ -1,0 +1,127 @@
+{
+  "dashboard": {
+    "name": "Retail Sales Analysis - Comprehensive Dashboard",
+    "size": "1600x1200",
+    "layout": {
+      "header": {
+        "title": "Retail Store Sales Analysis Dashboard",
+        "subtitle": "Interactive Business Intelligence Platform",
+        "filters": ["Date Range", "Region", "Category", "Customer Segment"]
+      },
+      "sections": [
+        {
+          "name": "Executive Summary",
+          "layout": "horizontal",
+          "components": [
+            {
+              "type": "kpi_cards",
+              "metrics": ["Total Sales", "Total Profit", "Profit Margin", "Total Orders"],
+              "size": "quarter"
+            },
+            {
+              "type": "trend_chart",
+              "title": "Monthly Sales Trend",
+              "chart_type": "line",
+              "x_axis": "Order Month",
+              "y_axis": "Total Sales",
+              "size": "three_quarter"
+            }
+          ]
+        },
+        {
+          "name": "Regional Performance",
+          "layout": "horizontal",
+          "components": [
+            {
+              "type": "map",
+              "title": "Sales by Region",
+              "geography": "State",
+              "color": "Total Sales",
+              "size": "half"
+            },
+            {
+              "type": "bar_chart",
+              "title": "Profit by Region",
+              "x_axis": "Region",
+              "y_axis": "Total Profit",
+              "color": "Profit Margin",
+              "size": "half"
+            }
+          ]
+        },
+        {
+          "name": "Customer Analytics",
+          "layout": "horizontal",
+          "components": [
+            {
+              "type": "rfm_matrix",
+              "title": "RFM Customer Segmentation",
+              "rows": "F Score",
+              "columns": "R Score",
+              "color": "M Score",
+              "text": "COUNTD(Customer ID)",
+              "size": "third"
+            },
+            {
+              "type": "scatter_plot",
+              "title": "Customer Value vs Frequency",
+              "x_axis": "Frequency",
+              "y_axis": "Monetary",
+              "color": "Customer Segment",
+              "size": "third"
+            },
+            {
+              "type": "bar_chart",
+              "title": "Top 10 Customers by Profit",
+              "x_axis": "Customer Name",
+              "y_axis": "Total Profit",
+              "sort": "descending",
+              "size": "third"
+            }
+          ]
+        },
+        {
+          "name": "Product Performance",
+          "layout": "horizontal",
+          "components": [
+            {
+              "type": "tree_map",
+              "title": "Sales by Sub-Category",
+              "size": "Total Sales",
+              "color": "Profit Margin",
+              "label": "Sub-Category",
+              "size_component": "half"
+            },
+            {
+              "type": "waterfall_chart",
+              "title": "Profit Contribution by Category",
+              "category": "Category",
+              "value": "Total Profit",
+              "size_component": "half"
+            }
+          ]
+        },
+        {
+          "name": "Advanced Analytics",
+          "layout": "horizontal",
+          "components": [
+            {
+              "type": "forecast_chart",
+              "title": "6-Month Sales Forecast",
+              "x_axis": "Order Date",
+              "y_axis": "Total Sales",
+              "forecast_periods": 6,
+              "size": "half"
+            },
+            {
+              "type": "correlation_matrix",
+              "title": "Metrics Correlation",
+              "metrics": ["Sales", "Profit", "Quantity", "Discount"],
+              "size": "half"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
