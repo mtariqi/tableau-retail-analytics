@@ -1930,11 +1930,11 @@ This project stands out because it demonstrates:
 
 **Interested in collaboration, questions, or opportunities?**
 
-- 📧 **Email**: your.email@domain.com
-- 💼 **LinkedIn**: [Your Profile](https://linkedin.com/in/yourprofile)
-- 🐙 **GitHub**: [@yourusername](https://github.com/yourusername)
-- 🌐 **Portfolio**: [yourportfolio.com](https://yourportfolio.com)
-- 📊 **Tableau Public**: [Your Profile](https://public.tableau.com/app/profile/yourprofile)
+- 📧 **Email**: triqul@scired.com
+- 💼 **LinkedIn**: www.linkedin.com/in/mdtariqulscired
+- 🐙 **GitHub**:https://github.com/mtariqi
+- 🌐 **Portfolio**: https://scired.com/team/
+- 📊 **Tableau Public**: https://github.com/mtariqi/tableau-retail-analytics/edit/main/technical_doc.md
 
 **Available for**:
 - Data Analytics Consulting
@@ -1979,36 +1979,3 @@ The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 ```
 
-**Attribution Appreciated** (but not required):
-If you use this project as a reference, a mention would be appreciated:
-> Based on [Retail Store Analytics](https://github.com/yourusername/retail-analytics-tableau) by [Your Name]
-
----
-
-## 🎯 Final Thoughts
-
-This project represents **200+ hours** of work combining:
-- Data engineering and architecture
-- Advanced analytics and ML modeling  
-- Business intelligence and visualization
-- Strategic thinking and ROI analysis
-- Documentation and presentation skills
-
-It's designed to showcase **real-world problem-solving** with **quantifiable business impact**.
-
-Whether you're a hiring manager, fellow analyst, or student learning analytics—I hope this project demonstrates the power of **data-driven decision making** and inspires you to build something amazing.
-
-**Questions? Feedback? Opportunities? Let's talk!** 👆 Contact info above.
-
----
-
-<p align="center">
-  <i>Built with ❤️ and data</i><br>
-  <i>Powered by Tableau • Python • SQL • Machine Learning</i>
-</p>
-
-<p align="center">
-  <a href="#-retail-store-sales-analysis---tableau-dashboard">⬆️ Back to Top</a>
-</p>
-
-</div>
